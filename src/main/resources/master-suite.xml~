@@ -1,0 +1,13 @@
+<!--   This is a suite for master Test Classes. Edit it only if needed. -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+    <test name="Test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://stagemonitor-demo.isys-software.de"/>
+        <classes>
+            <class name="functional.tests.HomePageTest"/>
+            <class name="functional.tests.AddOwnersTest"/>
+            <class name="functional.tests.FindOwnersTest"/>
+        </classes>
+    </test>
+</suite>
